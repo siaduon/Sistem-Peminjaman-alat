@@ -1,0 +1,36 @@
+:root {
+    --primary: #0d6efd;
+    --success: #198754;
+    --bg: #f8f9fa;
+}
+
+body {
+    background-color: var(--bg);
+    font-family: "Inter", "Segoe UI", sans-serif;
+}
+
+.login-bg {
+    background: linear-gradient(135deg, rgba(13, 110, 253, 0.12), rgba(25, 135, 84, 0.1));
+}
+
+.sidebar .nav-link {
+    border-radius: 0.5rem;
+    transition: all 0.2s ease;
+}
+
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.stat-card i {
+    font-size: 2rem;
+}
+
+.card {
+    border-radius: 1rem;
+}
+
+.table thead th {
+    white-space: nowrap;
+}
